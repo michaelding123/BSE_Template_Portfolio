@@ -1,9 +1,9 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+﻿# Phone Controlled Robotic Arm
+I am working on an Arduino robot arm that is controlled by a smartphone app.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior
+| Michael Ding | Monta Vista High School | Electrical Engineering | Incoming Senior
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
   
@@ -17,8 +17,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
-  
 
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
+My first milestone was assembling and controlling the robot arm using an Arduino. Each servo motor on the robotic arm is connected to a PWM spot on the Arduino, which allows multiple angles for my robotic arm, as well as to a power and ground spot on the breadboard. My code retrieves user input from the serial monitor, and prints it back in order to ensure that the text is being received. The numbers the user enters are then used to determine which servo motor to turn and which angle to turn to using if statements. One problem I faced was that the program simply stopped running after a short amount of time. My input was not getting relayed back, and the servos were not turning. Along with this, my computer would begin to make error noises. I resolved this issue by first running the program to only turn one motor to see if there was a problem with the code or any individual servo. After determining that nothing was wrong with the code or breadboard/wire setup, I found that it was an issue of power supply. I resolved this my plugging in a 9V battery into the Arduino.
 
 [![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
