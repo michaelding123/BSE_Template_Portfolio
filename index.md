@@ -4,7 +4,11 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Michael Ding | Monta Vista High School | Electrical Engineering | Incoming Senior
-  
+
+# First Milestone
+
+My second milestone was connecting the ESP32 to a smartphone using Bluetooth, and creating a mobile app using the MIT App Inventor that utilizes Bluetooth to send which servo the user wishes to turn and what position to the serial monitor.
+
 # First Milestone
 
 ![Circuit Diagram](https://github.com/michaelding123/MichaelDing_BSE_Portfolio/blob/gh-pages/Start%20Simulating.png)
