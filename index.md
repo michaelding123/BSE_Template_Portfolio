@@ -17,9 +17,6 @@ In the app inventor, I create a list picker for Bluetooth connections to choose 
 
 These are the code blocks for the elements inside the app. On the left are the Bluetooth controls, including functionality to change the text as well as the color when the user connects and disconnects. On the right, each slider sends the servo number (s1, s2, s3, or s4) as well as the position value between 0 and 180 degrees to the serial monitor through Bluetooth.
 
-I have designed the app to incorporate sliders for each servo motor on my robotic arm that I will eventually implement control for.
-Right now, the servo number and angle or position values are being printed to the serial monitor. I have also included a drop-down menu for Bluetooth connections and an option to disconnect.
-
 One issue that came up for me during this milestone was that the Arduino program implementing the ESP32 was not uploading. I eventually downloaded a separate driver for an additional COM6 port, as I figured that something was going wrong with the COM4 port that I had previously been using. After doing this, my program ran successfully.
 
 [![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1624562567/video_to_markdown/images/youtube--yFn0BqtVl9k-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/yFn0BqtVl9k "Second Milestone"){:target="_blank" rel="noopener"}
