@@ -5,6 +5,10 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 |:--:|:--:|:--:|:--:|
 | Michael Ding | Monta Vista High School | Computer Engineering | Incoming Senior
 
+# Third Milestone
+
+My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. I then implemented my code from the first milestone, except for the fact that values were being sent from the user through Bluetooth instead of through the serial monitor. 
+
 # Second Milestone
 
 For this milestone, I have created a mobile app using the MIT App Inventor. I also connect my smartphone with an ESP32, a controller with built-in Wi-Fi and Bluetooth capabilities. After plugging the ESP32 into my computer and setting it up with the Arduino interface, I created a program that reads input from the app on my phone through Bluetooth, creating a connection through radio waves instead of wires, which results in increased convenience.
