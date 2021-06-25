@@ -11,6 +11,8 @@ For this milestone, I have created a mobile app using the MIT App Inventor. I al
 
 ![App Inventor 1](https://github.com/michaelding123/MichaelDing_BSE_Portfolio/blob/gh-pages/inventor.png)
 
+![App Inventor 1](https://github.com/michaelding123/MichaelDing_BSE_Portfolio/blob/gh-pages/inventor2.png)
+
 I have designed the app to incorporate sliders for each servo motor on my robotic arm that I will eventually implement control for.
 Right now, the servo number and angle or position values are being printed to the serial monitor. I have also included a drop-down menu for Bluetooth connections and an option to disconnect.
 
