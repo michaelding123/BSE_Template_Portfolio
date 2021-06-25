@@ -7,11 +7,15 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 
 # Second Milestone
 
-For this milestone, I have created a mobile app using the MIT App Inventor. I also connect my smartphone with an ESP32, a controller with built-in Wi-Fi and Bluetooth capabilities. After plugging the ESP32 into my computer and setting it up with the Arduino interface, I created a program that reads input from the app on my phone through Bluetooth.
+For this milestone, I have created a mobile app using the MIT App Inventor. I also connect my smartphone with an ESP32, a controller with built-in Wi-Fi and Bluetooth capabilities. After plugging the ESP32 into my computer and setting it up with the Arduino interface, I created a program that reads input from the app on my phone through Bluetooth, creating a connection through radio waves instead of wires, which results in increased convenience.
 
 ![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/inventor.png)
 
+In the app inventor, I create a list picker for Bluetooth connections to choose from as well as a disconnect button. I also use a table layout where I include labels and sliders for each servo motor.
+
 ![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/inventor2.png)
+
+These are the code blocks for the elements inside the app. On the left are the Bluetooth controls, including functionality to change the text as well as the color when the user connects and disconnects. On the right, each slider sends the servo number (s1, s2, s3, or s4) as well as the position value between 0 and 180 degrees to the serial monitor through Bluetooth.
 
 I have designed the app to incorporate sliders for each servo motor on my robotic arm that I will eventually implement control for.
 Right now, the servo number and angle or position values are being printed to the serial monitor. I have also included a drop-down menu for Bluetooth connections and an option to disconnect.
