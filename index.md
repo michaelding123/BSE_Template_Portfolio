@@ -7,7 +7,9 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 
 # Third Milestone
 
-My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. I then implemented my code from the first milestone, except for the fact that values were being sent from the user through Bluetooth instead of through the serial monitor. 
+My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. I then implemented my code from the first milestone, except for the fact that values were being sent from the user through Bluetooth instead of through the serial monitor.
+
+![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/espdiagram.png)
 
 # Second Milestone
 
@@ -17,7 +19,7 @@ For this milestone, I have created a mobile app using the MIT App Inventor. I al
 
 In the app inventor, I create a list picker for Bluetooth connections to choose from as well as a disconnect button. I also use a table layout where I include labels and sliders for each servo motor.
 
-![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/inventor2.png)
+![App Inventor 2](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/inventor2.png)
 
 These are the code blocks for the elements inside the app. On the left are the Bluetooth controls, including functionality to change the text as well as the color when the user connects and disconnects. On the right, each slider sends the servo number (s1, s2, s3, or s4) as well as the position value between 0 and 180 degrees to the serial monitor through Bluetooth.
 
