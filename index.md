@@ -9,7 +9,9 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 
 My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. I then implemented my code from the first milestone, except for the fact that values were being sent from the user through Bluetooth instead of through the serial monitor.
 
-![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/espdiagram.png)
+![ESP32 Diagram](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/espdiagram.png)
+
+One issue I had during this milestone was that my servo motors were not turning all the way from 0 to 180 degrees with the ESP32 connection. I found that this was due to incorrect values for two parameters for the servo attach method. The first is the pulse-width for the lowest position while the second is the pulse-width for the maximum position. Each servo motor has different values required for maximum compatibility, and with some fine-tuning, I was able to get the motors to move all the way back and forth.
 
 # Second Milestone
 
