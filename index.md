@@ -9,7 +9,7 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 
 For this milestone, I have created a mobile app using the MIT App Inventor. I also connect my smartphone with an ESP32, a controller with built-in Wi-Fi and Bluetooth capabilities. After plugging the ESP32 into my computer and setting it up with the Arduino interface, I created a program that reads input from the app on my phone through Bluetooth.
 
-![App Inventor 1](https://github.com/michaelding123/MichaelDing_BSE_Portfolio/blob/gh-pages/inventor.png)
+![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/inventor.png)
 
 ![App Inventor 1](https://github.com/michaelding123/MichaelDing_BSE_Portfolio/blob/gh-pages/inventor2.png)
 
