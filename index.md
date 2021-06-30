@@ -13,7 +13,7 @@ Here is a diagram of a servo motor and a 6V battery pack connected to an ESP32 w
 
 ![ESP32 Diagram](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/espdiagram.png)
 
-I also added an ultrasonic sensor to the robotic arm as well as functionality to have the claw close whenever an object gets within range. The ultrasonic sensor detects distances of objects by releasing sound waves and using the time between the return of the sound wave after reflection, similar to a bat. I convert this distance into inches, and set the claw to clamp shut whenever the separation is less than 3 inches.
+I also added an ultrasonic sensor to the robotic arm as well as functionality to have the claw close whenever an object gets within range. The ultrasonic sensor detects distances of objects by releasing sound waves and using the time between the return of the sound wave after reflection, similar to a bat. Since the speed of sound is known, the time taken for the wave to return is multiplied by the speed, which gives the total distance traveled by the wave. This distance can be divided by 2 to obtain the one-way distance, or how far the object is from the sensor. I convert this distance into inches, and set the claw to clamp shut whenever the separation is less than 3 inches.
 
 ![Ultrasonic Sensor Claw](https://media.giphy.com/media/c3wV4PmqA3ldYNA4Hg/giphy.gif)
 
