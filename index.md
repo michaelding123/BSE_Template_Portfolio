@@ -7,7 +7,7 @@ I am working on an Arduino robot arm that is controlled by a smartphone app.
 
 # Third Milestone
 
-My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. I then implemented my code from the first milestone, except for the that values are  being sent from the user through Bluetooth instead of through the serial monitor.
+My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. While the Arduino supports Bluetooth, it requires a separate module, and the ESP32 has Bluetooth embedded within the microcontroller itself, increasing convenience without sacrificing any functionality. I then implemented my code from the first milestone, except that values are being sent from the user through Bluetooth instead of through the serial monitor.
 
 Here is a diagram of a servo motor and a 6V battery pack connected to an ESP32 with a breadboard and wires.
 
