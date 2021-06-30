@@ -14,6 +14,8 @@ Here is a diagram of a servo motor and a 6V battery pack connected to an ESP32 w
 
 I also added an ultrasonic sensor to the robotic arm as well as functionality to have the claw close whenever an object gets within range. The ultrasonic sensor detects distances of objects by releasing sound waves and using the time between the return of the sound wave after reflection, similar to a bat. I convert this distance into inches, and set the claw to clamp shut whenever the separation is less than 3 inches.
 
+![Ultrasonic Sensor Claw](https://media.giphy.com/media/c3wV4PmqA3ldYNA4Hg/giphy.gif)
+
 One issue I had during this milestone was that my servo motors were not turning all the way from 0 to 180 degrees with the ESP32 connection. I found that this was due to incorrect values for two parameters for the servo attach method. The first is the pulse-width for the lowest position while the second is the pulse-width for the maximum position. Each servo motor has different values required for maximum compatibility, and with some fine-tuning, I was able to get the motors to move all the way back and forth.
 
 # Second Milestone
