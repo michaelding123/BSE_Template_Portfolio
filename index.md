@@ -5,7 +5,11 @@ I have created a robotic arm that is controlled by a smartphone app and an ESP32
 |:--:|:--:|:--:|:--:|
 | Michael Ding | Monta Vista High School | Computer Engineering | Incoming Senior
 
-# Third Milestone
+# Conclusion
+
+[![Demo Night Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1625255765/video_to_markdown/images/youtube--vyjOFUD_yNs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/vyjOFUD_yNs "Demo Night Video"){:target="_blank" rel="noopener"}
+
+# Third (Final) Milestone and Modification
 
 My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. While the Arduino supports Bluetooth, it requires a separate module, and the ESP32 has Bluetooth embedded within the microcontroller itself, increasing convenience without sacrificing any functionality. I then implemented my code from the first milestone, except that values are being sent from the user through Bluetooth instead of through the serial monitor.
 
