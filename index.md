@@ -7,6 +7,8 @@ I have created a robotic arm that is controlled by a smartphone app and an ESP32
 
 # Conclusion
 
+Throughout my time at BlueStamp, I came to really enjoy both the mechanical and coding aspects of the project. I found the assebling of the arm and the making of the app using MIT App Inventor to be more engaging. I also loved learning about circuits and breadboards, and getting the servo motors to move was satisfying, knowing that I wired and programmed everything correctly. The challenge that had the most profound impact on me was in the first week, when my computer was not supplying enough power to keep all of the motors running. Since this was a different experience from most of the coding and debugging I have done in the past, I found that solving this problem was the most rewarding.
+
 [![Demo Night Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1625255765/video_to_markdown/images/youtube--vyjOFUD_yNs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/vyjOFUD_yNs "Demo Night Video"){:target="_blank" rel="noopener"}
 
 # Third (Final) Milestone and Modification
