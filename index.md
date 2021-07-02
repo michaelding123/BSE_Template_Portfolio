@@ -9,6 +9,10 @@ I have created a robotic arm that is controlled by a smartphone app and an ESP32
 
 My final milestone is having the mobile phone app remote control the robot arm. I connected all of the servo motors to the ESP32 and removed them from the Arduino since the ESP32 supports Bluetooth, allowing me to control the motors with my phone. While the Arduino supports Bluetooth, it requires a separate module, and the ESP32 has Bluetooth embedded within the microcontroller itself, increasing convenience without sacrificing any functionality. I then implemented my code from the first milestone, except that values are being sent from the user through Bluetooth instead of through the serial monitor.
 
+Code:
+
+![ESP32 Robotic Arm Program](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/RoboticArm.ino)
+
 Here is a diagram of a servo motor and a 6V battery pack connected to an ESP32 with a breadboard and wires.
 
 ![ESP32 Diagram](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/espdiagram.png)
