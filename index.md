@@ -1,5 +1,5 @@
 ﻿# Phone Controlled Robotic Arm
-I am working on an Arduino robot arm that is controlled by a smartphone app.
+I have created a robotic arm that is controlled by a smartphone app and an ESP32 microcontroller.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -22,6 +22,8 @@ One issue I had during this milestone was that my servo motors were not turning 
 # Second Milestone
 
 For this milestone, I have created a mobile app using the MIT App Inventor. I also connect my smartphone with an ESP32, a controller with built-in Wi-Fi and Bluetooth capabilities. After plugging the ESP32 into my computer and setting it up with the Arduino interface, I created a program that reads input from the app on my phone through Bluetooth, creating a connection through radio waves instead of wires, which results in increased convenience.
+
+With the new microcontroller, I downloaded a separate servo motor library in the Arduino IDE called ESP32Servo because the default Servo library is incompatible with the ESP32, and it only works when the Arduino is connected to the computer.
 
 ![App Inventor 1](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/inventor.png)
 
