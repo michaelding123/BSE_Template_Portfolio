@@ -11,7 +11,7 @@ My final milestone is having the mobile phone app remote control the robot arm. 
 
 Code:
 
-![ESP32 Robotic Arm Program](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/RoboticArm.ino)
+[ESP32 Robotic Arm Program](https://raw.githubusercontent.com/michaelding123/MichaelDing_BSE_Portfolio/gh-pages/RoboticArm.ino)
 
 Here is a diagram of a servo motor and a 6V battery pack connected to an ESP32 with a breadboard and wires.
 
